@@ -1,0 +1,114 @@
+.dashboardheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 0.9rem;
+  color: #647787;
+  background: #FFF;
+  z-index: 1000;
+  box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.2);
+  ;
+
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    color: #1875F0;
+    padding: 0 2rem;
+  }
+
+  .search {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border-radius: 3rem;
+    gap: 1rem;
+
+    .search_icon {
+      cursor: pointer;
+    }
+
+    .search_icon:hover {
+      color: #1860EC;
+    }
+    img {
+      width: 17px;
+    }
+
+    input {
+      font-size: 1rem;
+      color: #647787;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 3rem;
+
+    li {
+      padding: 0 1rem;
+      cursor: pointer;
+    }
+
+    li:hover {
+      color: #1860EC;
+    }
+
+    li:nth-child(3) {
+      position: relative;
+
+      .notification {
+        position: absolute;
+        background-color: #1860EC;
+        padding: 1px 5px;
+        font-size: 10px;
+        border-radius: 10px;
+        top: -8px;
+        left: 23px;
+        color: white;
+      }
+    }
+
+    li:last-child:hover {
+      color: #647787;
+    }
+
+
+
+    .user_info {
+      display: flex;
+      gap: 0.5rem;
+
+
+
+      p {
+        width: max-content;
+      }
+
+      p:first-child {
+        font-size: 10px;
+        text-align: right;
+      }
+
+      img {
+        width: 35px;
+        border-radius: 5rem;
+        border: 1px solid white;
+      }
+
+      img:hover {
+        border: 1px solid #1860EC;
+      }
+    }
+  }
+}
