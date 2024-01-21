@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import DashboardHeader from "../components/Layout/DashboardHeader/DashboardHeader.jsx";
 import MobileHeader from "../components/Layout/MobileHeader/MobileHeader.jsx";
 import DashboardSideBar from "../components/Layout/DashboardSideBar/DashboardSideBar.jsx";
-import DashboardHero from "../components/DashboardHero.jsx";
+import DashboardHero from "../components/DashboardHero/DashboardHero.jsx";
 import "./index.scss";
 
 const DashboardPage = () => {

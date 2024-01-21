@@ -1,0 +1,55 @@
+.transactions {
+  width: 100%;
+  display: flex;
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+
+  .card {
+    padding: 1.2rem 0.9rem;
+    background: #fff;
+    border: 1px solid #eef8fd;
+    flex: 1;
+    margin-right: 0.7rem;
+    border-radius: 2px;
+    gap: 0.8rem;
+
+    &:hover {
+        box-shadow: 2.4px 2.4px 3.2px rgba(145, 148, 150, 0.15);
+      }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: 1200px) {
+      margin-right: 0px;
+      margin-bottom: 0.8rem;
+    }
+
+    .cardContent {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-size: 0.8rem;
+          color: #787C90;
+          white-space: nowrap;
+
+          &:nth-of-type(2) {
+            margin-top: 0.2rem;
+            font-size: 1.3rem;
+            color: #262626;
+          }
+        }
+      }
+    }
+  }
+}

@@ -46,7 +46,7 @@ const DashboardSideBar = () => {
             ))}
           </ul>
         </div>
-        <div className="Orders">
+        <div className="orders">
           <h3>Orders</h3>
           <ul>
             {orderItem.map((item) => (

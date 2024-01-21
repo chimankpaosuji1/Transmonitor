@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bell } from "../../../Assests/svg";
+import { Bellicon } from "../../../Assests/svg";
 import SearchIcon from "../../../Assests/img/search.png";
 import ProfileImage from "../../../Assests/img/profileimage.png";
 import './index.scss'
@@ -20,7 +20,7 @@ const DashboardHeader = () => {
         <li>Support</li>
         <li>FAQ</li>
         <li>
-          <Bell />
+          <Bellicon />
           <p className="notification">8</p>
         </li>
         <li className="user_info">

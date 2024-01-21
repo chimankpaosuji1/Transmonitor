@@ -1,4 +1,4 @@
-export { ReactComponent as Bell } from './bell.svg';
+export { ReactComponent as Bellicon } from './bellicon.svg';
 export { ReactComponent as Logo } from './logo.svg';
 export { ReactComponent as Overview } from './overview.svg';
 export { ReactComponent as AllPayments } from './all-payments.svg';
@@ -9,4 +9,4 @@ export { ReactComponent as AllOrders } from './all-orders.svg';
 export { ReactComponent as PendingOrders } from './pending-orders.svg';
 export { ReactComponent as ReconcilledOrders } from './reconcilled-orders.svg';
 export { ReactComponent as MerchantProfile } from './merchant-profile.svg';
-export { ReactComponent as Stats } from './stats.svg';
+export { ReactComponent as Statistics } from "./stats.svg";
