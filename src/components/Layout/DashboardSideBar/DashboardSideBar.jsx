@@ -17,9 +17,7 @@ const DashboardSideBar = () => {
       <div className="navigation">
         <div className="main">
           <h3>Main</h3>
-          <Link to="/" className="">
-            <li></li>
-          </Link>
+          
           <ul>
             {mainItem.map((item) => (
               <li

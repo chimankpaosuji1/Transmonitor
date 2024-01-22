@@ -1,8 +1,8 @@
 import React from 'react'
 import { Bellicon } from "../../../Assests/svg";
-import SearchIcon from "../../../Assests/img/search.png";
 import ProfileImage from "../../../Assests/img/profileimage.png";
 import './index.scss'
+import { CiSearch } from "react-icons/ci";
 
 const DashboardHeader = () => {
   return (
@@ -11,7 +11,7 @@ const DashboardHeader = () => {
         <h1 className="logo">TransMonitor</h1>
         <div className="search">
           <div className="search_icon">
-            <img src={SearchIcon} alt="" />
+            <CiSearch />
           </div>
           <input type="text" placeholder="Search...." />
         </div>
