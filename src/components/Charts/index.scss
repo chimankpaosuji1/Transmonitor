@@ -1,0 +1,91 @@
+
+.chart {
+  width: 100%;
+  margin: 1.5rem 0;
+  display: flex;
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+  &_data {
+  flex: 1;
+  margin-left: 3px;
+
+  @media screen and (max-width: 1200px) {
+    margin-left: 0px;
+    margin-top: 3px;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid #eef8fd;
+    width: var(--full);
+    padding: 1.35rem 3rem 0 1rem;
+    height: 164.5px;
+
+    &:hover {
+        box-shadow: 2.4px 2.4px 3.2px rgba(145, 148, 150, 0.15);
+      }
+
+    &:nth-child(2) {
+      margin-top: 3px;
+    }
+
+    .cardHeader {
+      font-size: 1rem;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.6rem;
+      color: #262626;
+    }
+
+    .progressBar {
+      height: 4px;
+      position: relative;
+      background: gold;
+      border-radius: 10px;
+      margin-bottom: 0.6rem;
+
+      >span {
+        width: 80%;
+        background: #27ae60;
+        height: 100%;
+        display: block;
+        border: 1px solid transparent;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+
+    .progress {
+      margin: 0;
+      padding: 0;
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: #262626;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        >span {
+
+          &.pending {
+            color: gold;
+          }
+
+          &.reconcilled {
+            color: #27ae60;
+          }
+
+          &.total {
+            color: #1875f0;
+          }
+        }
+      }
+    }
+  }
+}
+}
