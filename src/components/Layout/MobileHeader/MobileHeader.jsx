@@ -8,7 +8,7 @@ import {
 import "./index.scss";
 import { Bellicon } from "../../../Assests/svg";
 import { IoMdClose } from "react-icons/io";
-import { CiMenuBurger, CiSearch } from "react-icons/ci";
+import { CiMenuBurger} from "react-icons/ci";
 import ProfileImage from "../../../Assests/img/profileimage.png";
 
 const MobileHeader = () => {

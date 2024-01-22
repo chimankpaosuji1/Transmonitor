@@ -136,8 +136,8 @@ const Payments = () => {
           >
             Previous
           </div>
-          <div className={`page ${active == 1 ? "active" : ""}`}>1</div>
-          <div className={`page ${active == 2 ? "active" : ""}`}>2</div>
+          <div className={`page ${active === 1 ? "active" : ""}`}>1</div>
+          <div className={`page ${active === 2 ? "active" : ""}`}>2</div>
           <div
             onClick={() => {
               setActive(2);
